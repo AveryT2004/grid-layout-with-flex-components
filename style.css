@@ -1,0 +1,188 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    color: #222;
+  }
+  
+  .emoji {
+    border: 1px solid #222;
+    border-radius: 8px;
+    padding: 1rem;
+  }
+  
+  .emoji h2 {
+    margin: 0;
+    border-bottom: 2px solid #ccc;
+  }
+  
+  .emoji a {
+    text-decoration: none;
+    background-color: #781BAA;
+    color: white;
+    padding: 1rem;
+    border-radius: 8px;
+  }
+  
+  .icon {
+    font-size: 4rem;
+  }
+
+  /* CLASS AND ID LEGEND
+  "Body" - All the content
+  "Emojis" - All four boxes and their contents but NO HEADING
+  "Emoji" - Each individual box and its contents
+  "Icon" - Each emoji individually
+  */
+  
+  /*NO ORDER TAG - "Order" is for flex items, not the flex container*/
+  body {margin-left: 5%;
+        margin-right: 5%;}
+
+  .emojis {
+    display: grid;
+    grid-template-columns: 30% 30%;
+    grid-template-rows: 50% 60%;
+    row-gap: 20px;
+    column-gap: 20px;
+  }
+
+  .emoji:nth-child(1) {
+    display: grid;
+    grid-template-rows: 35% 12% 35% 18%;
+    grid-template-columns: 33% 33% 33%;
+  }
+
+  .emoji:nth-child(1) p {
+    display: grid;
+    grid-column: 1/4;
+    grid-row: 3/4;
+  }
+
+  .emoji:nth-child(1) span.icon {
+    display: grid;
+    grid-column: 1/4;
+    grid-row: 1/2;
+    justify-content: center;
+    align-content: center;
+  }
+
+  .emoji:nth-child(1) a {
+    display: grid;
+    grid-row: 4/5;
+    grid-column: 1/4;
+    justify-content: baseline;
+  }
+
+  .emoji:nth-child(1) h2 {
+    display: grid;
+    grid-column: 1/4;
+    grid-row: 2/3;
+    justify-content: baseline;
+  }
+
+/*2*/
+
+.emoji:nth-child(2) {
+  display: grid;
+  grid-template-rows: 35% 12% 35% 18%;
+  grid-template-columns: 33% 33% 33%;
+}
+
+.emoji:nth-child(2) p {
+  display: grid;
+  grid-column: 1/4;
+  grid-row: 3/4;
+}
+
+.emoji:nth-child(2) span.icon {
+  display: grid;
+  grid-column: 2/3;
+  grid-row: 1/2;
+  justify-content: center;
+  align-content: center;
+}
+
+.emoji:nth-child(2) a {
+  display: grid;
+  grid-row: 4/5;
+  grid-column: 1/4;
+  justify-content: baseline;
+}
+
+.emoji:nth-child(2) h2 {
+  display: grid;
+  grid-column: 1/4;
+  grid-row: 2/3;
+  justify-content: baseline;
+}
+
+/*3*/
+
+.emoji:nth-child(3) {
+  display: grid;
+  grid-template-rows: 35% 10% 40% 15%;
+  grid-template-columns: 33% 33% 33%;
+}
+
+.emoji:nth-child(3) p {
+  display: grid;
+  grid-column: 1/4;
+  grid-row: 3/4;
+}
+
+.emoji:nth-child(3) span.icon {
+  display: grid;
+  grid-column: 2/3;
+  grid-row: 1/2;
+  justify-content: center;
+  align-content: center;
+}
+
+.emoji:nth-child(3) a {
+  display: grid;
+  grid-row: 4/5;
+  grid-column: 1/4;
+  justify-content: baseline;
+}
+
+.emoji:nth-child(3) h2 {
+  display: grid;
+  grid-column: 1/4;
+  grid-row: 2/3;
+  justify-content: baseline;
+}
+
+/*4*/
+
+.emoji:nth-child(4) {
+  display: grid;
+  grid-template-rows: 35% 10% 40% 15%;
+  grid-template-columns: 33% 33% 33%;
+}
+
+.emoji:nth-child(4) p {
+  display: grid;
+  grid-column: 1/4;
+  grid-row: 3/4;
+}
+
+.emoji:nth-child(4) span.icon {
+  display: grid;
+  grid-column: 2/3;
+  grid-row: 1/2;
+  justify-content: center;
+  align-content: center;
+}
+
+.emoji:nth-child(4) a {
+  display: grid;
+  grid-row: 4/5;
+  grid-column: 1/4;
+  justify-content: baseline;
+}
+
+.emoji:nth-child(4) h2 {
+  display: grid;
+  grid-column: 1/4;
+  grid-row: 2/3;
+  justify-content: baseline;
+}
